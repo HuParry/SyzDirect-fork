@@ -165,8 +165,8 @@ def PreparePathVariables():
     
     ############### SET BY USER
     global CleanImageTemplatePath,KeyPath
-    CleanImageTemplatePath=""
-    KeyPath=""
+    CleanImageTemplatePath="~/SyzDirect-main/image/bullseye.img"
+    KeyPath="~/SyzDirect-main/image/bullseye.id_rsa"
     assert os.path.exists(CleanImageTemplatePath), "Please offer clean image path"
     assert os.path.exists(KeyPath), "Please offer key path"
     
